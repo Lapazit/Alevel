@@ -1,6 +1,7 @@
 g = int(input())
 if g == 0:
     print('vvedite ne 0')
+    print('Loshadi')
 elif g != 0 and g % 2 and g // 3 and g // 5 and g % 10:
     print('chislo ne chetnoe delitsya na 3 i 5 odnovremenno i ne delitsya na 10')
 else:
